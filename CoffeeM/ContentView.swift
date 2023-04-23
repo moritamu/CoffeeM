@@ -13,6 +13,7 @@ class CofDr: ObservableObject {
 }
 
 struct ContentView: View {
+    @ObservedObject var cofDr = CofDr()
     var body: some View {
         VStack {
             Image(systemName: "globe")
