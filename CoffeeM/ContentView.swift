@@ -6,6 +6,11 @@
 //
 
 import SwiftUI
+class CofDr: ObservableObject {
+    @Published var mameG = 12
+    @Published var kosa = 6
+    @Published var tuTime = 40
+}
 
 struct ContentView: View {
     var body: some View {
